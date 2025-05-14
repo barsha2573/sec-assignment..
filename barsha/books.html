@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Books | English Literature Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #e1f5fe, #ede7f6);
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      margin: 0;
+    }
+
+    nav {
+      background: #4527a0;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #fffde7;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin: 0 25px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc80;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #6a1b9a;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .book {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      padding: 25px;
+      margin-bottom: 30px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+
+    .book img {
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .book-details {
+      flex: 1;
+    }
+
+    .book h3 {
+      font-family: 'Playfair Display', serif;
+      color: #4a148c;
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+
+    .book p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #3e2723;
+    }
+
+    footer {
+      background: #1b1b1b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .book {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .book img {
+        width: 100%;
+        max-width: 200px;
+      }
+
+      .book-details {
+        padding-top: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Featured Books</h1>
+  </header>
+
+  <nav>
+    <a href="homepage1.html">Home</a>
+    <a href="films.html">Films</a>
+  </nav>
+
+  <main>
+    <h2>Voices of the Hills through Literature</h2>
+
+    <div class="book">
+      <img src="when.jpeg" alt="When the River Sleeps">
+      <div class="book-details">
+        <h3>1. When the River Sleeps by Easterine Kire</h3>
+        <p>This novel intertwines Naga folklore with environmental themes, portraying a solitary hunter’s spiritual journey through the forests of Nagaland. It highlights the deep connection between the Naga people and nature, emphasizing indigenous ecological knowledge.</p>
+      </div>
+    </div>
+
+    <div class="book">
+      <img src="a terrible.jpeg" alt="A Terrible Matriarchy">
+      <div class="book-details">
+        <h3>2. A Terrible Matriarchy by Easterine Kire</h3>
+        <p>Through the lens of a young girl’s experiences, this novel explores gender roles within a matrilineal Naga society, shedding light on the complexities of women’s lives and their relationships with cultural traditions.</p>
+      </div>
+    </div>
+
+    <div class="book">
+      <img src="son.jpeg" alt="Son of the Thundercloud">
+      <div class="book-details">
+        <h3>3. Son of the Thundercloud by Easterine Kire</h3>
+        <p>Blending myth and reality, this narrative centers on a woman’s role as a life-giver and spiritual guide, reflecting ecological feminism and the sacredness of nature in Naga culture.</p>
+      </div>
+    </div>
+
+    <div class="book">
+      <img src="the hill home.jpeg" alt="These Hills Called Home">
+      <div class="book-details">
+        <h3>4. These Hills Called Home: Stories from a War Zone by Temsula Ao</h3>
+        <p>A collection of short stories that delve into the impact of political conflict on Naga society, particularly focusing on women’s experiences and their resilience amidst turmoil.</p>
+      </div>
+    </div>
+
+    <div class="book">
+      <img src="mari.jpeg" alt="Mari by Easterine Kire">
+      <div class="book-details">
+        <h3>5. Mari by Easterine Kire</h3>
+        <p>Set during World War II, this novel narrates the true story of a young Naga woman, capturing the intersection of personal and historical narratives, and highlighting women’s roles during times of upheaval.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 English Literature Project | Curated by Barsha Das
+  </footer>
+</body>
+</html>

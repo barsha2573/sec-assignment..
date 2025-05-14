@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Films | English Literature Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ffecb3, #fce4ec);
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #d4145a, #fbb03b);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      margin: 0;
+    }
+
+    nav {
+      background: #ad1457;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      color: #fffde7;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin: 0 25px;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffd54f;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #c2185b;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .film {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      padding: 25px;
+      margin-bottom: 30px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+
+    .film img {
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .film-details {
+      flex: 1;
+    }
+
+    .film h3 {
+      font-family: 'Playfair Display', serif;
+      color: #880e4f;
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+
+    .film p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #4e342e;
+    }
+
+    footer {
+      background: #1b1b1b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .film {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .film img {
+        width: 100%;
+        max-width: 200px;
+      }
+
+      .film-details {
+        padding-top: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Featured Films</h1>
+  </header>
+
+  <nav>
+    <a href="homepage1.html">Home</a>
+    <a href="books.html">Books</a>
+  </nav>
+
+  <main>
+    <h2>Visual Stories from the Hills</h2>
+
+    <div class="film">
+      <img src="pangti.jpeg" alt="The Pangti Story">
+      <div class="film-details">
+        <h3>1. The Pangti Story (2017)</h3>
+        <p>A documentary showcasing the transformation of a Naga village from hunting to conserving the Amur Falcon, reflecting community-driven environmental conservation efforts.</p>
+      </div>
+    </div>
+
+    <div class="film">
+      <img src="fu.jpeg" alt="Sopfünuo">
+      <div class="film-details">
+        <h3>2. Sopfünuo (2005)</h3>
+        <p>Based on an Angami Naga folktale, this docu-drama portrays a woman’s tragic journey, emphasizing themes of love, loss, and the spiritual connection to the land.</p>
+      </div>
+    </div>
+
+    <div class="film">
+      <img src="ang.jpeg" alt="Angh">
+      <div class="film-details">
+        <h3>3. Angh (2021)</h3>
+        <p>A short film depicting the challenges faced by a village chief and his son in a rapidly changing world, highlighting the tension between tradition and modernity in Naga society.</p>
+      </div>
+    </div>
+
+    <div class="film">
+      <img src="naga.jpeg" alt="Naga Story">
+      <div class="film-details">
+        <h3>4. Naga Story: The Other Side of Silence (2003)</h3>
+        <p>This documentary provides an in-depth look into the Naga people’s struggle for identity and justice, incorporating personal narratives that underscore the role of oral traditions in preserving history.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 English Literature Project | Curated by Barsha Das
+  </footer>
+</body>
+</html>
